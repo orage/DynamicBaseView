@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DynamicBaseView">
+        <attr name="arcL" format="float"/>
+        <attr name="arcWidth" format="float"/>
+        <attr name="circleSpeed" format="integer"/>
+        <attr name="deviationSpeed" format="integer"/>
+        <attr name="isCircle" format="boolean"/>
+    </declare-styleable>
+</resources>
