@@ -4,29 +4,26 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:layout_gravity="center"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:orientation="horizontal"
+    android:padding="10dp">
 
     <org.orange.dynamicbaseview.DynamicBaseView
         android:id="@+id/dbv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         dynamicbaseview:arcL="10"
-        dynamicbaseview:arcWidth="200"
         dynamicbaseview:arcSpace="5"
+        dynamicbaseview:arcWidth="200"
         dynamicbaseview:circleSpeed="20"
         dynamicbaseview:deviationSpeed="20"
         dynamicbaseview:isCircle="true" />
 
-    <Button
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dialog Btn"
-        android:id="@+id/button" />
-
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:text="Content is loading ..." />
 
 </LinearLayout>

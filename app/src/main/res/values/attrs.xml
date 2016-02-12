@@ -3,6 +3,7 @@
     <declare-styleable name="DynamicBaseView">
         <attr name="arcL" format="float"/>
         <attr name="arcWidth" format="float"/>
+        <attr name="arcSpace" format="float"/>
         <attr name="circleSpeed" format="integer"/>
         <attr name="deviationSpeed" format="integer"/>
         <attr name="isCircle" format="boolean"/>
